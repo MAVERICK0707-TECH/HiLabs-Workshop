@@ -1,0 +1,32 @@
+{
+  "file_name": "019M72177_N991-796129_20241213.json",
+  "entity_type_error_rate": {
+    "MEDICINE": 0.08,
+    "PROBLEM": 0.05,
+    "PROCEDURE": 0.15,
+    "TEST": 0.05,
+    "VITAL_NAME": 0.0,
+    "IMMUNIZATION": 0.0,
+    "MEDICAL_DEVICE": 0.0,
+    "MENTAL_STATUS": 0.0,
+    "SDOH": 0.30,
+    "SOCIAL_HISTORY": 0.20
+  },
+  "assertion_error_rate": {
+    "POSITIVE": 0.05,
+    "NEGATIVE": 0.02,
+    "UNCERTAIN": 0.45
+  },
+  "temporality_error_rate": {
+    "CURRENT": 0.10,
+    "CLINICAL_HISTORY": 0.25,
+    "UPCOMING": 0.0,
+    "UNCERTAIN": 0.50
+  },
+  "subject_error_rate": {
+    "PATIENT": 0.02,
+    "FAMILY_MEMBER": 0.0
+  },
+  "event_date_accuracy": 0.90,
+  "attribute_completeness": 0.85
+}
